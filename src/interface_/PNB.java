@@ -1,4 +1,6 @@
-public class PNB implements  RBI{
+package interface_;
+
+public class PNB implements RBI {
     @Override
     public void interest() {
         System.out.println("10% interest");

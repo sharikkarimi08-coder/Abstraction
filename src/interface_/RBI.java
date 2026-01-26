@@ -1,3 +1,5 @@
+package interface_;
+
 public interface RBI {
 
     final static int a = 8;

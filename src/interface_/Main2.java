@@ -11,6 +11,7 @@ public class Main2 {
         m.battery();
         m.equals(true);
 
+
         m = new Iphone();
         m.message();
         m.call();

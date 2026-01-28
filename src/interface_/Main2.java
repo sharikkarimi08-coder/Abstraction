@@ -9,7 +9,7 @@ public class Main2 {
         m = new Samsung();
         m.call();
         m.battery();
-        m.message();
+        m.equals(true);
 
         m = new Iphone();
         m.message();

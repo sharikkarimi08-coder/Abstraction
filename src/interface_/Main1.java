@@ -6,14 +6,14 @@ public class Main1 {
 
         Printer i;
 
-        InkjetPrinter p = new InkjetPrinter();
-        p.colour();
-        p.print();
+        i = new InkjetPrinter();
+        i.colour();
+        i.print();
 
-        LaserPrinter l = new LaserPrinter();
-        l.colour();
-        l.print();
-        l.size();
-        System.out.println(l.hashCode());
+        i = new LaserPrinter();
+        i.colour();
+        i.print();
+        i.size();
+        System.out.println(i.hashCode());
     }
 }

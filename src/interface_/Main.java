@@ -6,6 +6,7 @@ public class Main {
 
         RBI.printData();
          r = new SBI();
+         r.deposit();
         System.out.println(r.hashCode());
 
          r = new PNB();
